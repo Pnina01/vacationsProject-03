@@ -1,0 +1,38 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #edc183;
+    padding: 10px;
+  }
+  
+  .LogoContainer {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .Logo {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    
+       
+        border: 3px dotted #80b918; 
+      
+      
+  }
+  
+  .Title {
+    margin: 0;
+   
+       
+        color: navy; /* Cambia "navy" por el color azul marino que desees */
+        margin-bottom: 15px; /* Ajusta el valor según cuánto más arriba quieras que esté el título */
+     
+      
+  }
+  
+  .AuthMenuContainer {
+    margin-left: auto;
+  }
+  

@@ -1,0 +1,30 @@
+.PageNotFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding-top: 50px;
+  }
+  
+  .PageNotFound p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .PageNotFound h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .PageNotFound a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .PageNotFound img {
+    width: 80%;
+    max-width: 600px;
+  }
+  

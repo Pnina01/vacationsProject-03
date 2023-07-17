@@ -1,0 +1,153 @@
+.VacationCard {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 310px;
+    height: 350px;
+    margin: 5px;
+}
+
+
+.VacationCard .Card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.VacationCard .Destination {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: blueviolet;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.VacationCard .Description {
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    min-height: 70px;
+    word-wrap: break-word;
+}
+
+.VacationCard Img {
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.VacationCard .Details {
+    min-height: 180px;
+    grid-column: auto;
+    grid-row: 45%;
+}
+
+.VacationCard p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.VacationCard .Price {
+    margin-bottom: 0px;
+    color: rgb(152, 53, 53);
+
+}
+
+.VacationCard .CheckboxDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.VacationCard .TextCountFollow {
+    color: rgb(36, 130, 4);
+    font-weight: bolder;
+}
+
+.VacationCard .BtnAdminDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.VacationCard .BtnDelete {
+    border: none;
+    margin-right: 50px;
+    margin-left: 0px;
+    background: transparent;
+    padding: 0px;
+    width: 80px;
+    font-family: cursive;
+    color: rgb(76, 149, 16);
+    font-size: medium;
+}
+
+.VacationCard>a {
+    color: blueviolet;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+/* The switch - the box around the slider */
+.VacationCard .Switch {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 24px;
+}
+
+.VacationCard span {
+    text-align: center;
+    top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* The slider */
+.VacationCard .Slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.VacationCard input:checked+.Slider {
+    background-color: blueviolet;
+}
+
+.VacationCard input:checked+.Follow {
+    background-color: #ccc;
+}
+
+/* Rounded sliders */
+.VacationCard .Slider.Round {
+    border-radius: 34px;
+}
+
+.VacationCard .VacationCard .Follow {
+    background-color: #ccc;
+}
+
+.VacationCard .VacationCard .Unfollow {
+    background-color: blueviolet;
+}
+
+.VacationCard .DivFollowCount {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 24px;
+    border-radius: 34px;
+    background-color: #ccc;
+}
